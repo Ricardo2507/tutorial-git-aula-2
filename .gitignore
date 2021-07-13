@@ -1,1 +1,7 @@
 me_ignore.txt
+*.py
+# o arquivo abaixo não será ignorado
+!arquivo_3.py
+# para ignoirar uma pasta, colocamos o nome da mesma seguido de /
+# para que o gitigone entenda que é uma pasta
+pasta_teste/
